@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "mobile",
+    "slug": "mobile",
+    "version": "1.0.0",
+    "scheme" : "mobile",
+    "orientation": "portrait",
+    "icon": "./assetss/icon.png",
+    "splash": {
+      "image": "./assetss/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121214"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assetss/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assetss/favicon.png"
+    }
+  }
+}
